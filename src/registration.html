@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+"title":"Регистрация"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('_header.html',{})
+		<main class="page">
+			<section class="page__registration registration-page">
+				<div class="registration-page__container _container">
+					<div class="registration-page__body">
+						<div class="registration-page__breadcrumbs breadcrumbs">
+							<a href="#" class="breadcrumbs__linck">Вход</a>
+						</div>
+						<h2 class="registration-page__title title title_no-img title_margin">Регистрация</h2>
+						<form class="registration-page__form form" action="#">
+							<div class="form__line">
+								<input class="form__input input _req " autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Имя*">
+							</div>
+							<div class="form__line">
+								<input class="form__input input _req" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Фамилия*">
+							</div>
+							<div class="form__line">
+								<input class="form__input input _req" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Логин*">
+							</div>
+							<div class="form__line">
+								<input class="form__input input _req" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="EMail*">
+							</div>
+							<div class="form__line">
+								<input class="form__input input _req" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Пароль*">
+							</div>
+							<div class="form__line">
+								<input class="form__input input _req" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Повторите пароль*">
+							</div>
+							<div class="form__line form__line_flex">
+								<label class=" form__checkbox checkbox ">
+									<input checked data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+									<span class="checkbox__text"><span>Мужчина</span></span>
+								</label>
+								<label class=" form__checkbox checkbox">
+									<input data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+									<span class="checkbox__text"><span>Женщина</span></span>
+								</label>
+							</div>
+							<div class="form__line">
+								<label class=" form__checkbox checkbox ">
+									<input data-error="Ошибка" class="checkbox__input _req" type="checkbox" value="1" name="form[]">
+									<span class="checkbox__text"><span>Я согласен с</span><a href="#" class="checkbox__link">Условия и правила</a></span>
+								</label>
+							</div>
+							<button class="form__btn btn form__btn_margin" type="submit">Отправить</button>
+						</form>
+						<div class="registration-page__info info">
+							<span class="info__text">У вас нет аккаунта?</span>
+							<a href="#" class="info__link-registr">Регистрация</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		@@include('_footer.html',{})
+	</div>
+	@@include('_js.html',{})
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<path d="M28.0838 0H11.9162C5.34559 0 0 5.34559 0 11.9162V28.0838C0 34.6544 5.34559 40 11.9162 40H28.0838C34.6544 40 40 34.6544 40 28.0838V11.9162C39.9999 5.34559 34.6543 0 28.0838 0ZM35.976 28.0838C35.976 32.4425 32.4425 35.976 28.0838 35.976H11.9162C7.5575 35.976 4.024 32.4425 4.024 28.0838V11.9162C4.024 7.55743 7.5575 4.024 11.9162 4.024H28.0838C32.4425 4.024 35.976 7.55743 35.976 11.9162V28.0838Z" fill="url(#paint0_linear)"/>
+</g>
+<g filter="url(#filter1_d)">
+<path d="M19.9997 9.65479C14.2952 9.65479 9.6543 14.2957 9.6543 20.0001C9.6543 25.7045 14.2952 30.3456 19.9997 30.3456C25.7042 30.3456 30.3451 25.7046 30.3451 20.0001C30.3451 14.2957 25.7042 9.65479 19.9997 9.65479ZM19.9997 26.3216C16.5085 26.3216 13.6783 23.4915 13.6783 20.0002C13.6783 16.509 16.5085 13.6788 19.9997 13.6788C23.491 13.6788 26.3211 16.509 26.3211 20.0002C26.3211 23.4914 23.4909 26.3216 19.9997 26.3216Z" fill="url(#paint1_linear)"/>
+</g>
+<g filter="url(#filter2_d)">
+<path d="M30.3657 12.2114C31.7348 12.2114 32.8447 11.1015 32.8447 9.73239C32.8447 8.36329 31.7348 7.25342 30.3657 7.25342C28.9966 7.25342 27.8867 8.36329 27.8867 9.73239C27.8867 11.1015 28.9966 12.2114 30.3657 12.2114Z" fill="url(#paint2_linear)"/>
+</g>
+<defs>
+<filter id="filter0_d" x="-4" y="0" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_d" x="5.6543" y="9.65479" width="28.6908" height="28.6908" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter2_d" x="23.8867" y="7.25342" width="12.958" height="12.958" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="20" y1="39.8836" x2="20" y2="0.310687" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E09B3D"/>
+<stop offset="0.3" stop-color="#C74C4D"/>
+<stop offset="0.6" stop-color="#C21975"/>
+<stop offset="1" stop-color="#7024C4"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="19.9997" y1="39.8838" x2="19.9997" y2="0.310898" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E09B3D"/>
+<stop offset="0.3" stop-color="#C74C4D"/>
+<stop offset="0.6" stop-color="#C21975"/>
+<stop offset="1" stop-color="#7024C4"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="30.3657" y1="39.8837" x2="30.3657" y2="0.310834" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E09B3D"/>
+<stop offset="0.3" stop-color="#C74C4D"/>
+<stop offset="0.6" stop-color="#C21975"/>
+<stop offset="1" stop-color="#7024C4"/>
+</linearGradient>
+</defs>
+</svg>

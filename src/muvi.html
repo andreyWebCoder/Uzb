@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Фильмы</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="https://cdn.plyr.io/3.6.3/plyr.css" />
+	<link rel="stylesheet" href="css/vendors.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="icon" href="img/muvi.svg" type="images/svg">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		@@include('_header.html',{})
+		<main class="page">
+			<section class="page__muvi muvi-page">
+				<div class="muvi-page__container _container">
+					<div class="muvi-page__breadcrumbs breadcrumbs breadcrumbs_flex">
+						<a href="#" class="breadcrumbs__linck"><span class="_icon-arrow"></span>Главная</a>
+						<a href="#" class="breadcrumbs__linck"><span class="_icon-arrow"></span>Фильмы</a>
+						<a href="#" class="breadcrumbs__linck"><span class="_icon-arrow"></span>Снайпер</a>
+					</div>
+					<div id="whatch" class="muvi-page__wrapper _video-playr">
+						<video class="muvi-page__video" playsinline controls>
+							<source src="videos/muvi.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+			</section>
+			<section class="page__film film-page">
+				<div class="film-page__container _container">
+					<div class="film-page__left">
+						<div class="film-page__img _ibg">
+							<img src="img/muvi/film1.jpg" alt="Снайпер">
+						</div>
+						<div class="film-page__likes">
+							<button class="film-page__btn film-page__btn_like" type="submit"><span class="_icon-like"></span>0</button>
+							<button class="film-page__btn film-page__btn_dithlike" type="submit"><span class="_icon-like"></span>0</button>
+						</div>
+						<a href="#whatch" class="film-page__link"><span class="_icon-muvi-arrow-transparent"></span>Смотреть</a>
+					</div>
+					<div class="film-page__right">
+						<h2 class="film-page__title"> <span class="_icon-love-transparent"></span> Снайпер</h2>
+						<p class="film-page__label">СлоганСлоганСлоганСлоганСлоган</p>
+						<div class="film-page__info info-film-page">
+							<div class="info-film-page__row">
+								<div class="info-film-page__label">Год выпуска:</div>
+								<div class="info-film-page__text">2013</div>
+							</div>
+							<div class="info-film-page__row">
+								<div class="info-film-page__label">Возраст:</div>
+								<div class="info-film-page__text">16+</div>
+							</div>
+							<div class="info-film-page__row">
+								<div class="info-film-page__label">Жанр:</div>
+								<div class="info-film-page__text">
+									<a href="#" class="info-film-page__link">Драма,</a>
+									<a href="#" class="info-film-page__link">Музыка,</a>
+									<a href="#" class="info-film-page__link">Биография</a>
+								</div>
+							</div>
+							<div class="info-film-page__row">
+								<div class="info-film-page__label">Качество:</div>
+								<div class="info-film-page__text">Николай Хомерики</div>
+							</div>
+							<div class="info-film-page__row">
+								<div class="info-film-page__label">Просмотры:</div>
+								<div class="info-film-page__text">46</div>
+							</div>
+							<div class="info-film-page__row">
+								<div class="info-film-page__label">В ролях:</div>
+								<div class="info-film-page__text">Евгений Цыганов, Дэйзи Хэд, Дмитрий Лысенков,
+									Джонатан Солвей, Юрий Колокольников</div>
+							</div>
+
+						</div>
+						<h3 class="film-page__subtitle subtitle">Сюжет</h3>
+						<p class="film-page__subtext">Петербург конца XIX века охвачен массовым увлечением оккультными науками и эзотерикой. Британка-медиум Оливия Рид приезжает в столицу Российской империи с гастролями и собирает на своих публичных спиритических сеансах толпы людей. В это время в городе происходит серия ритуальных загадочных убийств. На улицах похищают девушек, их изувеченные тела находят в самых разных концах города. Расследованием занимаются молодой полицейский офицер Ростов и его помощник Ганин. С каждой новой жертвой дело становится все запутаннее.На улицах похищают девушек, их изувеченные тела находят в самых разных концах города. Расследованием занимаются молодой полицейский офицер Ростов и его помощник Ганин.</p>
+					</div>
+				</div>
+			</section>
+			<section class="page__frame frame-page">
+				<div class="frame-page__container _container">
+					<div class="frame-page__body">
+						<h3 class="frame-page__subtitle subtitle">Кадры из фильма</h3>
+						<div class="frame-page__images">
+							<div class="frame-page__item">
+								<div class="frame-page__img _ibg">
+									<img src="img/muvi/frame-1.jpg" alt="Кадр со снайпера">
+								</div>
+							</div>
+							<div class="frame-page__item">
+								<div class="frame-page__img _ibg">
+									<img src="img/muvi/frame-1.jpg" alt="Кадр со снайпера">
+								</div>
+							</div>
+							<div class="frame-page__item">
+								<div class="frame-page__img _ibg">
+									<img src="img/muvi/frame-1.jpg" alt="Кадр со снайпера">
+								</div>
+							</div>
+							<div class="frame-page__item">
+								<div class="frame-page__img _ibg">
+									<img src="img/muvi/frame-1.jpg" alt="Кадр со снайпера">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__recommended recommended-page">
+				<div class="recommended-page__container _container">
+					<div class="recommended-page__body">
+						<h3 class="recommended-page__subtitle subtitle">Также рекомендуется</h3>
+						<div class="recommended-page__images">
+							<div class="recommended-page__item">
+								<a href="#" class="recommended-page__img _ibg">
+									<img src="img/muvi/film1.jpg" alt="Иной картинка">
+								</a>
+								<a href="#" class="recommended-page__subtitle subtitle subtitle_margin clamp">Снайпер</a>
+								<div class="recommended-page__links">
+									<a href="#" class="recommended-page__sublink">Боевик,</a>
+									<a href="#" class="recommended-page__sublink">Драма,</a>
+									<a href="#" class="recommended-page__sublink">Комедия</a>
+								</div>
+							</div>
+							<div class="recommended-page__item">
+								<a href="#" class="recommended-page__img _ibg">
+									<img src="img/muvi/film2.jpg" alt="Сумалак кастинг картинка">
+								</a>
+								<a href="#" class="recommended-page__subtitle subtitle subtitle_margin clamp">Сумалак кастинг</a>
+								<div class="recommended-page__links">
+									<a href="#" class="recommended-page__sublink">Комедия,</a>
+									<a href="#" class="recommended-page__sublink">Криминал,</a>
+									<a href="#" class="recommended-page__sublink">Фентези</a>
+								</div>
+							</div>
+							<div class="recommended-page__item">
+								<a href="#" class="recommended-page__img _ibg">
+									<img src="img/muvi/film3.jpg" alt="Эр бермок, Жон бер картинка">
+								</a>
+								<a href="#" class="recommended-page__subtitle subtitle subtitle_margin clamp">Эр бермок, Жон бероыавор</a>
+								<div class="recommended-page__links">
+									<a href="#" class="recommended-page__sublink">Фэнтези,</a>
+									<a href="#" class="recommended-page__sublink">Комедия,</a>
+									<a href="#" class="recommended-page__sublink">Боевик</a>
+								</div>
+							</div>
+							<div class="recommended-page__item">
+								<a href="#" class="recommended-page__img _ibg">
+									<img src="img/muvi/film4.jpg" alt="Жених на прокат картинка">
+								</a>
+								<a href="#" class="recommended-page__subtitle subtitle subtitle_margin clamp">Жених на прокат | Супер</a>
+								<div class="recommended-page__links">
+									<a href="#" class="recommended-page__sublink">Документальный,</a>
+									<a href="#" class="recommended-page__sublink">Исторический,</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="recommended-page__footer">
+						<div class="recommended-page__avtorization">
+							<p class="recommended-page__text">Только зарегистрированные пользователи могут оставлять комментарии.<a href="#" class="recommended-page__link">Авторизируйтесь.</a></p>
+						</div>
+						<p class="recommended-page__coments">Все комментарии <span>(0)</span></p>
+						<p class="recommended-page__notcoments">Нет комменатриев</p>
+					</div>
+
+				</div>
+			</section>
+		</main>
+		@@include('_footer.html',{})
+	</div>
+	@@include('_js.html',{})
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+//<FORM ()>====================================================================================================
+.form {
+	max-width: 385px;
+	margin: 0 auto;
+	// .form__line
+
+	&__line {
+		margin: 0px 0px 30px 0px;
+		&_flex{
+			display: flex;
+			.form__checkbox{
+				margin: 0px 50px 0px 0px;
+			}
+		}
+	}
+
+	// .form__input
+
+	&__input {
+		height: 50px;
+		font-size: 18px;
+		color: #777777;
+		border-radius: 5px;
+		width: 100%;
+		display: block;
+		padding: 0px 20px;
+		appearance: none;
+		transition: all 0.3s ease 0s;
+		&._error{
+			border: 1.5px solid red;
+
+		}
+		&:focus{
+			border: 1.5px solid #20e029;
+		}
+	}
+
+	// .form__link
+
+	&__link {
+		font-weight: 500;
+		font-size: 16px;
+		display: inline-flex;
+		align-items: center;
+		color: #ffffff;
+		transition: all 0.3s ease 0s;
+		@media (any-hover: hover) {
+			&:hover{
+				color: #64B369;
+				svg{
+					path{
+						fill: #64B369;
+					}
+				}
+			}
+		}
+		svg{
+			display: inline-block;
+			width: 20px;
+			margin: 0px 16.5px 0px 2px;
+			path{
+				transition: all 0.3s ease 0s;
+			}
+		}
+	}
+
+	&__btn {
+		margin: 0px 0px 20px 0px;
+		padding: 0px 0px;
+		height: 50px;
+		width: 100%;
+		border-radius: 5px;
+		font-weight: bold;
+		font-size: 24px;
+		color: #ffffff;
+		background-color: #337AB7;
+		line-height: 0;
+		transition: all 0.3s ease 0s;
+		&_margin{
+			margin: 0px 0px 30px 0px;
+		}
+		@media (any-hover: hover) {
+			&:hover{
+				background-color: #64B369;
+			}
+		}
+	}
+
+	// .form__note
+
+	&__note {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		color: #AEAEAE;
+	}
+	&__error{
+		margin: 10px 0px 0px 0px;
+	}
+}
+//</FORM>====================================================================================================
+//<SELECT (sel+tab)>====================================================================================================
+.select {
+	position: relative;
+	// .select__item
+	&__item {
+		position: relative;
+	}
+	// .select__title
+	&__title {
+		color: #000;
+		border: 1px solid #d9d9d9;
+		background-color: #fff;
+		cursor: pointer;
+		border-radius: 4px;
+		@media (max-width: $md2+px) {
+			font-size: 18px;
+		}
+	}
+	// .select__value
+	&__value {
+		display: flex;
+		font-size: 14px;
+		height: 30px;
+		padding: 0px 15px;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: row-reverse;
+		span {
+			height: 1em;
+			overflow: hidden;
+			display: -webkit-box;
+			-webkit-line-clamp: 1;
+			-webkit-box-orient: vertical;
+		}
+		&:before {
+			content: "";
+			display: inline-block;
+			transition: all 0.3s ease 0s;
+			width: 11px;
+			height: 7px;
+			background: url("../img/icons/select.svg") center / 100% no-repeat;
+		}
+	}
+	&__input {
+		width: 100%;
+		background-color: transparent;
+		height: 100%;
+	}
+	// .select__options
+	&__options {
+		color: #000;
+		display: none;
+		position: absolute;
+		top: 29px;
+		border-radius: 0 0 4px 4px;
+		min-width: 100%;
+		left: 0;
+		background-color: #fff;
+		border-top: 0;
+		border: 1px solid #d9d9d9;
+		border-top: 0;
+		font-size: 14px;
+		padding: 10px 0px 5px 0px;
+		@media (max-width: $md2+px) {
+			font-size: 18px;
+		}
+	}
+	// .select__option
+	&__option {
+		cursor: pointer;
+		padding: 5px 15px;
+		margin: 0px 0px 0px 0px;
+		@media (min-width: 992px) {
+			&:hover {
+				background: #d9d9d9;
+			}
+		}
+	}
+	&._active {
+		z-index: 5;
+		.select__value {
+			&:before {
+				transform: rotate(-180deg);
+			}
+		}
+		.select__options {
+			display: block;
+		}
+	}
+}
+//</SELECT>====================================================================================================
+//<INPUT (inp+tab)>====================================================================================================
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+textarea.input {
+	resize: none;
+	padding: 0px 0px;
+}
+//</INPUT>====================================================================================================
+
+//<CHECK (chk+tab)>====================================================================================================
+.checkbox {
+	position: relative;
+	// .checkbox__input
+	&__input {
+		position: absolute;
+		width: 0;
+		height: 0;
+		opacity: 0;
+		visibility: hidden;
+		&:checked + .checkbox__text:before {
+			background: #fff url("../img/icons//cheked.svg") center no-repeat;
+		}
+	}
+	// .checkbox__text
+	&__text {
+		display: flex;
+		align-items: center;
+		position: relative;
+		color: #ffffff;
+		font-weight: 500;
+		font-size: 18px;
+		letter-spacing: -0.3px;
+		line-height: calc(20 / 16);
+		cursor: pointer;
+		&:before {
+			content: "";
+			align-self: flex-start;
+			margin: 0px 14px 0px 0px;
+			flex: 0 0 20px;
+			left: 0;
+			top: 0;
+			width: 20px;
+			height: 20px;
+			background: #fff;
+			border: 1px solid #a7a9ac;
+			border-radius: 5px;
+		}
+	}
+	&__link{
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 21px;
+		color: #64B369;
+		flex: 1 1 auto;
+		text-align: right;
+	}
+	&._error {
+		.checkbox__text {
+			&:before {
+				border: 1px solid #ee1212;
+			}
+		}
+	}
+}
+//</CHECK>====================================================================================================

@@ -1,0 +1,15 @@
+.wrapper {
+	background:rgba(17, 20, 40, 1);
+	background-image: none !important;
+}
+.page {
+
+	// .page__registrationr
+
+	&__registration {
+		margin: 35px 0px 60px 0px;
+		@media (max-width:$md3+px){
+			margin: 35px 0px 30px 0px; 
+		}
+	}
+}
